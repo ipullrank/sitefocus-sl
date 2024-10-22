@@ -1,0 +1,10 @@
+streamlit
+requests
+trafilatura
+sentence-transformers
+numpy
+torch
+tqdm
+scikit-learn
+pandas
+advertools
