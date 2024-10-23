@@ -8,3 +8,4 @@ tqdm
 scikit-learn
 pandas
 advertools
+einops

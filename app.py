@@ -17,7 +17,10 @@ st.write("A tool for calculating the site focus score of a website or a series o
 
 
 # Load the model
-model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1")
+#model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1")
+model = SentenceTransformer("nomic-ai/nomic-embed-text-v1.5", trust_remote_code=True)
+
+
 
 # Input fields for sitemap or list of URLs (separated by newlines)
 sitemap_url = st.text_input("Enter your XML sitemap URL (optional)", "")
